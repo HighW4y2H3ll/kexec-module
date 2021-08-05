@@ -1,3 +1,4 @@
+EXTRA_CFLAGS := -I$(src)
 obj-m := kexec-mod.o
 kexec-mod-y := kexec-drv.o kexec.o
 kexec-mod-y += machine_kexec.o relocate_kernel.o
